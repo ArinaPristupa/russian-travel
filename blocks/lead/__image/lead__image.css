@@ -1,0 +1,17 @@
+.lead__image {
+text-align: center;
+width: 100%;
+max-height: 615px;
+margin: 0 auto;
+-o-object-fit: cover;
+object-fit: cover;
+-o-object-position: top;
+object-position: top;
+}
+
+@media screen and (max-width: 1024px) { 
+    .lead__image {
+        max-height: 580px;
+}
+}
+
